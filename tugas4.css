@@ -1,0 +1,89 @@
+.box {
+	width: 700px;
+	height: 300px;
+	padding: 30px;
+	margin: 30px;
+	background-color: #EFC3CA;
+}
+
+a:link{
+	color: red;
+}
+a:hover{
+	color: hotpink;
+}
+a:visited{
+	color: green;
+}
+a:active{
+	color: lightblue;
+}
+
+ul{
+	background: #CC6CE7;
+	padding: 20px;
+}
+
+ul li{
+	background: #EFC3CA;
+	color: #D20103;
+	margin: 5px;
+}
+
+p{
+	border: 5px #FFDE59;
+	outline: 10px #FE9900;
+	font-family: MV Boli;
+}
+
+h1{
+	text-align: center; 
+	font-family: MV Boli;
+	background-color: #CC6CE7;
+	color: black;
+	text-decoration: underline #060270;
+	text-shadow: 2px 2px 5px #060270;
+}
+
+h2{
+	text-align: center;
+	background-color: #CC6CE7;
+	color: black;
+	text-decoration: underline #060270;
+}
+
+table, th, td{
+	border: 1px solid;
+}
+
+table{
+	width: 100%
+}
+
+tr :hover {
+	background-color: yellowgreen;
+}
+
+th{
+	height: 50px;
+	text-align: center;
+	background-color: pink;
+}
+
+table-responsive {
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.icon-lokasi {
+    font-size: 24px; /* Ukuran ikon */
+    color: red;      /* Warna ikon */
+}
+
+.map-link {
+	color: darkblue;
+}
+
+h6{
+	direction: rtl; /*biasanya untuk b.arab yaitu tulisan di sebelah kanan*/
+}
